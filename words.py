@@ -1,6 +1,6 @@
 word = input()
-char = 0
+words = 0
 for i in word:
 	if i == " ":
-		char = char + 1 
-print(char)
+		words = words + 1 
+print(words)
