@@ -1,9 +1,14 @@
-number=int(input())
-k=0
-for i in range(2,number//2+1):
-    if(number%i==0):
-        k=k+1
-if(k<=0):
-    print("yes")
-else:
-    print("no")
+a,b = map(int,input().split(" "))
+ans=[]
+for i in range(a+1,b):
+	if i==b-1:
+		if i%2==0:
+			ans.append(i)
+	else:
+		if i%2==0:
+			ans.append(i)
+for i in range(len(ans)):
+	if i==len(ans)-1:
+		print(ans[i],end="")
+	else:
+		print(ans[i],end=" ")
