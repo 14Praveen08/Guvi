@@ -1,15 +1,15 @@
 # your code goes here
-a=int(input())
-t=str(a)
+number=int(input())
+t=str(number)
 p=len(t)
 c=0
-a1=a
-while a>0:
-	y=a%10
+temp=number
+while number>0:
+	y=number%10
 	b=y**p
 	c=c+b
-	a=a//10
-if a1==c:
+	number=number//10
+if temp==c:
 	print("yes")
 else:
 	print("no")
