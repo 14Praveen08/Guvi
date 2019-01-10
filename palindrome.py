@@ -6,6 +6,6 @@ while(number>0):
     reverse=reverse*10+digit
     number=number//10
 if(temporary==reverse):
-    print("Yes")
+    print("yes")
 else:
-    print("No")
+    print("no")
