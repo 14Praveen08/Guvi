@@ -1,2 +1,5 @@
 string = input()
-print(string.isalnum())
+if(string.isalnum() == False):
+	print("No")
+else:
+	print("Yes")
