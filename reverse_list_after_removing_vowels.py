@@ -1,3 +1,4 @@
+length = int(input())
 string = input()
 list1=[]
 for i in string:
