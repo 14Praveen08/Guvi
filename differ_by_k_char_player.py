@@ -1,4 +1,5 @@
 # your code goes here
+# your code goes here
 str1,str2,k = map(str,input().split(" "))
 k=int(k)
 list1=[]
@@ -13,7 +14,7 @@ else:
 		list2.append(i)
 	for i in range(0,len(list1)):
 		if list1[i] == list2[i]:
-			break
+			continue
 		else:
 			count=count+1
 if k == count:
