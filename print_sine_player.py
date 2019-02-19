@@ -1,3 +1,4 @@
+# your code goes hee
 import math
 angle = int(input())
-print(math.sin(math.radians(angle)))
+print(round((math.sin(math.radians(angle))),2))
